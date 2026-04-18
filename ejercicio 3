@@ -1,0 +1,9 @@
+Algoritmo LeyOhm
+    Definir R, I, V Como Real
+    Escribir "Ingrese el valor de la Resistencia (R):"
+    Leer R
+    Escribir "Ingrese el valor de la Corriente (I):"
+    Leer I
+    V <- I * R
+    Escribir "El Voltaje (V) es: ", V
+FinAlgoritmo
