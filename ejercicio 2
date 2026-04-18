@@ -1,0 +1,10 @@
+Algoritmo ConversionMoneda
+    Definir dolares, trm, pesos Como Real
+    Escribir "Ingrese cantidad en Dólares:"
+    Leer dolares
+	// Tasa Representativa del Mercado
+    Escribir "Ingrese la TRM del día:"
+    Leer trm
+    pesos <- dolares * trm
+    Escribir "El valor en Pesos Colombianos es: ", pesos
+FinAlgoritmo
