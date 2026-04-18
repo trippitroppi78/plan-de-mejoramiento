@@ -1,0 +1,7 @@
+Algoritmo DescuentoFijo
+    Definir compra, total Como Real
+    Escribir "Ingrese valor de la compra:"
+    Leer compra
+    total <- compra - 10000
+    Escribir "Total a pagar (Descuento de $10.000 aplicado): ", total
+FinAlgoritmo
