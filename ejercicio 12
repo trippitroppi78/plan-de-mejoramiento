@@ -1,0 +1,12 @@
+Algoritmo GeometriaDelCirculo
+ 
+Definir r, circunferencia Como Real 
+    
+Escribir "Por favor, ingresa el radio del círculo:" 
+      
+    Leer r
+       
+circunferencia <- 2 * PI * r 
+    
+	Escribir "La circunferencia calculada es: ", circunferencia 
+FinAlgoritmo
