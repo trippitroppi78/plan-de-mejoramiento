@@ -1,0 +1,8 @@
+Algoritmo MetrosACmYMm
+    Definir metros, cm, mm Como Real
+    Escribir "Ingrese medida en metros:"
+    Leer metros
+    cm <- metros * 100
+    mm <- metros * 1000
+    Escribir metros, " metros equivalen a ", cm, " cm y ", mm, " mm"
+FinAlgoritmo
