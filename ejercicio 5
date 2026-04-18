@@ -1,0 +1,9 @@
+Algoritmo VelocidadMedia
+    Definir d, t, v Como Real
+    Escribir "Ingrese distancia (metros):"
+    Leer d
+    Escribir "Ingrese tiempo (segundos):"
+    Leer t
+    v <- d / t
+    Escribir "La velocidad media es: ", v, " m/s"
+FinAlgoritmo
