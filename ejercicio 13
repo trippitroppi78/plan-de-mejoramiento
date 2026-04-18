@@ -1,0 +1,7 @@
+Algoritmo ReparticionSocios
+    Definir ganancia, parte Como Real
+    Escribir "Ingrese la ganancia total:"
+    Leer ganancia
+    parte <- ganancia / 3
+    Escribir "A cada socio le corresponde: ", parte
+FinAlgoritmo
