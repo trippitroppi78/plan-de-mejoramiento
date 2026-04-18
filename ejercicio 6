@@ -1,0 +1,8 @@
+Algoritmo AhorroConBono
+    Definir ahorro, bono, total Como Real
+    Escribir "Ingrese la cantidad ahorrada:"
+    Leer ahorro
+    bono <- ahorro * 0.15
+    total <- ahorro + bono
+    Escribir "Total con bono del 15%: ", total
+FinAlgoritmo
