@@ -1,0 +1,9 @@
+Algoritmo ConsumoMotor
+    Definir vatios, horas, wh Como Real
+    Escribir "Potencia del motor (vatios):"
+    Leer vatios
+    Escribir "Horas de uso:"
+    Leer horas
+    wh <- vatios * horas
+    Escribir "El consumo es de: ", wh, " Wh"
+FinAlgoritmo
