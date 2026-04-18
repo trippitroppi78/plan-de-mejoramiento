@@ -1,0 +1,13 @@
+Algoritmo ValidarInventarioBodega
+    Definir piezas Como Entero
+    
+    Escribir "Ingrese la cantidad de piezas disponibles en bodega:"
+    Leer piezas
+    
+    Si piezas < 5 Entonces
+        Escribir "Solicitar pedido urgente al proveedor" 
+    Sino
+        
+        Escribir "Todavía hay inventario suficiente para el trabajo"
+    FinSi
+FinAlgoritmo
