@@ -1,0 +1,11 @@
+Algoritmo VentaSoftware
+    Definir precio, cantidad, subtotal, iva, total Como Real
+    Escribir "Precio de la licencia:"
+    Leer precio
+    Escribir "Cantidad vendida:"
+    Leer cantidad
+    subtotal <- precio * cantidad
+    iva <- subtotal * 0.19
+    total <- subtotal + iva
+    Escribir "Total a pagar (incluye IVA 19%): ", total
+FinAlgoritmo
