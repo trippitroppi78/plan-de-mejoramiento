@@ -1,0 +1,14 @@
+Algoritmo ControlAccesoRestringido
+    Definir edad Como Entero
+    
+    Escribir "Por favor, ingrese su edad:"
+    Leer edad
+    
+    Si edad >= 18 Entonces
+       
+        Escribir "Bienvenido al laboratorio de robótica"
+    Sino
+        
+        Escribir "Esta página está restringida para mayores de 18"
+    FinSi
+FinAlgoritmo
